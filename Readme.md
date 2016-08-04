@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Andrey Kharlamov](https://up.htmlacademy.ru/htmlcss/14/user/231525).
-* Наставник: `Неизвестно`.
+* Наставник: [Sergei Kozlov ] (https://htmlacademy.ru/profile/id27386).
 
 ---
 
