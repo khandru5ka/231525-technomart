@@ -4,10 +4,19 @@
     <meta charset="utf-8">
     <title>Техномарт</title>
     <link href="css/style.css" rel="stylesheet">
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700&amp;subset=latin,cyrillic" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Cuprum:400,400italic,700,700italic&amp;subset=latin,cyrillic" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,700,700italic&amp;subset=latin,cyrillic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700|PT+Sans:400,700&subset=cyrillic" rel="stylesheet">
   </head>
+  
+  <!-- Ругается валидатор - модальный блок -->
+  <div class="modal-content-order">
+      <button class="modal-content-close modal-close" type="button" title="Закрыть">Закрыть</button>
+      <span>Товар добавлен в корзину!</span>
+      <div class="submit-order">
+        <a class="btn btn-order">оформить заказ</a>
+        <a class="btn btn-close modal-close">продолжить покупки</a>
+      </div>
+  </div>
+
   <body>
     <header class="header">
     <div class="menu-top">
@@ -21,7 +30,7 @@
           <div class="menu-top-bookmarks">
             <a href="#">Закладки: 0</a>
           </div>
-          <div class="menu-top-basket">
+          <div class="menu-top-basket filled">
             <a href="#">Корзина: 10</a>
           </div>
           <div class="menu-top-order">
@@ -30,6 +39,7 @@
         </div>
       </div>
     </div>
+
     <div class="menu">
       <div class="container">
         <div class="menu-middle  clearfix">
@@ -43,12 +53,10 @@
             <a class="login" href="#">Войти</a>
             <a class="registration" href="#">Регистрация</a>
             -->
+            <a class="user" href="#">Равшан Джамшутович</a><br>
+            <a class="user-orders" href="#">Мои заказы</a>
+            <a class="user-profile" href="#">Личный кабинет</a>
 
-            
-                        <a class="user" href="#">Равшан Джамшутович</a><br>
-                        <a class="user-orders" href="#">Мои заказы</a>
-                        <a class="user-profile" href="#">Личный кабинет</a>
-            
             <div class="login-popup">
               <a href="#" class="login-popup-close">✕</a>
               <form class="login-form" action="/auth" method="post">
@@ -56,12 +64,13 @@
                 <input class="password-field" type="password" name="password" placeholder="Пароль">
                 <a class="restore" href="#">Я забыл пароль</a>
                 <label>
-                  <input type="checkbox" name="remember"> Запомните меня</label>
-                <input type="submit" value="Войти">
+                  <input type="checkbox" name="remember"> Запомните меня
+                </label>
               </form>
             </div>
           </div>
         </div>
+
         <nav class="menu-lower">
           <div class="menu-lower-menu">
             <p><a href="index.html">Главная</a></p>
@@ -74,17 +83,20 @@
           </div> 
         </nav>
       </div>
-      </div>
     </div>
   </header>
-    <main>
+
+  <main>
     <div class="container  clearfix">
+      
       <div class="breadcrumbs">
         <p><a href="#">Каталог</a></p>
         <p><a href="#">Инструмент</a></p>
         <p>Перфораторы</p>
       </div>
+
       <h1 class="calalog-header">Перфораторы</h1>
+
       <form class="side-left">
         <p class="side-topbar">Фильтр:</p>
 
@@ -144,13 +156,12 @@
               <input type="submit" id="view" name="view" value="Показать">
               <label for="view">Показать</label>
             </div>
-
           </div>
         </section>
-
       </form>
 
       <div class="side-right">
+
         <div class="side-topbar  clearfix">Сортировка:
           <ul class="sort-controls">
             <li><span class="sort-option  sort-option-active">По цене</span>
@@ -180,6 +191,7 @@
             <del class="price-old">32 500 P.</del>
             <ins class="price">25 500 P.</ins>
           </div>
+
           <div class="catalog-item  catalog-item-catalog">
             <div class="actions">
               <a href="#" class="buy">Купить</a>
@@ -191,6 +203,7 @@
             <del class="price-old">30 500 P.</del>
             <ins class="price">25 500 P.</ins>
           </div>
+
           <div class="catalog-item  catalog-item-catalog">
             <div class="actions">
               <a href="#" class="buy">Купить</a>
@@ -201,6 +214,7 @@
             <a class="title" href="#">Перфоратор Bosch BFG 2000</a>
             <ins class="price">12 500 P.</ins>
           </div>
+
           <div class="catalog-item  catalog-item-catalog">
             <div class="actions">
               <a href="#" class="buy">Купить</a>
@@ -212,6 +226,7 @@
             <del class="price-old">32 500 P.</del>
             <ins class="price">25 500 P.</ins>
           </div>
+
           <div class="catalog-item  catalog-item-catalog">
             <div class="actions">
               <a href="#" class="buy">Купить</a>
@@ -223,6 +238,7 @@
             <del class="price-old">22 500 P.</del>
             <ins class="price">15 500 P.</ins>
           </div>
+
           <div class="catalog-item  catalog-item-catalog">
             <div class="actions">
               <a href="#" class="buy">Купить</a>
@@ -234,6 +250,7 @@
             <del class="price-old">30 500 P.</del>
             <ins class="price">25 500 P.</ins>
           </div>
+
           <div class="catalog-item  catalog-item-catalog">
             <div class="actions">
               <a href="#" class="buy">Купить</a>
@@ -244,6 +261,7 @@
             <a class="title" href="#">Перфоратор Bosch BFG 2000</a>
             <ins class="price">12 500 P.</ins>
           </div>
+
           <div class="catalog-item  catalog-item-catalog">
             <div class="actions">
               <a href="#" class="buy">Купить</a>
@@ -255,6 +273,7 @@
             <del class="price-old">30 500 P.</del>
             <ins class="price">25 500 P.</ins>
           </div>
+
           <div class="catalog-item  catalog-item-catalog">
             <div class="actions">
               <a href="#" class="buy">Купить</a>
@@ -266,6 +285,7 @@
             <ins class="price">12 500 P.</ins>
           </div>
         </div>
+
         <div class="catalog-paginator">
           <div>
             <p><span class="page-button  page-button-active">1</span>
@@ -280,6 +300,7 @@
         </div>
       </div>
     </div>
+
     <section class="about-product">
       <div class="container">
         <div class="about-product-text-container">
@@ -289,7 +310,8 @@
       </div>
     </section>
   </main>
-    <footer>
+
+  <footer>
     <div class="footer-upper">
       <div class="container  clearfix">
         <div id="contacts" class="footer-upper-contacts">
@@ -297,6 +319,7 @@
           <p class="address">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br>
             <p class="address">+7 812 555 05 55</p>
         </div>
+
         <div class="footer-menu">
           <div class="footer-upper-site-menu">
             <p><a href="#">Компания</a></p>
@@ -305,6 +328,7 @@
             <p><a href="#shipping">Доставка</a></p>
             <p><a href="#contacts">Контакты</a></p>
           </div>
+
           <div class="footer-upper-shop-menu">
             <p><a href="catalog.html">Материалы</a></p>
             <p><a href="catalog.html">Техника</a></p>
@@ -314,6 +338,7 @@
         </div>
       </div>
     </div>
+
     <div class="footer-lower">
       <div class="container  clearfix">
         <p class="copyright-company">© 2010–2016 Компания «Техномарт»
@@ -332,6 +357,5 @@
       </div>
     </div>
   </footer>
-  <script src="js/script.js"></script>
 </body>
 </html>
