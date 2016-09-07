@@ -319,6 +319,7 @@ main {
 
 .login:active {
   color: #b2b2b2;
+  opacity: 0.3;
 }
 
 .login:before {
@@ -328,8 +329,8 @@ main {
   top: 9px;
   width: 30px;
   height: 30px;
-  background: url('../img/icon-login.png') no-repeat 0px 2px;
-  opacity: 0.5;
+  background: url('../img/icon-login-hover.png') no-repeat 0px 2px;
+  opacity: 0.3;
 }
 
 .login:hover:before {
@@ -351,6 +352,8 @@ main {
 
 .user:active {
   color: #b2b2b2;
+  opacity: 0.5;
+
 }
 
 .user:before {
@@ -358,27 +361,29 @@ main {
   position: absolute;  
   left: 10px;
   top: 12px;
-  width: 20px;
+  width: 280px;
   height: 20px;
-  background: url('../img/icon-user-hover.png') no-repeat;
+  background: url('../img/icon-user-hov.png') no-repeat;
   opacity: 0.3;
 }
+
 
 .user:after {
   content: '';
   position: absolute;
-  right: 10px;
+  left: 10px;
   top: 11px;
-  width: 20px;
+  width: 280px;
   height: 20px;
-  background: url('../img/icon-login-hover.png') no-repeat;
+  background: url('../img/icon-user-hov.png') no-repeat;
   opacity: 0.3;
 }
-
 
 .user:hover:after {
   opacity: 1;
 }
+
+
 
 .user-orders,
 .user-profile {
