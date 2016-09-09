@@ -16,7 +16,7 @@ main {
 
 .header {
   font-size: 17px;
-  font-family: 'Cuprum';
+  font-family: 'Cuprum', 'Arial', sans-serif;
 }
 
 .container {
@@ -464,7 +464,7 @@ main {
 .promo-block {
   font-size: 0;
   margin: 40px 0 50px;
-  font-family: 'Cuprum';
+  font-family: 'Cuprum', 'Arial', sans-serif;
   position: relative;
 }
 
@@ -500,25 +500,25 @@ main {
 }
 
 .materials {
-  background: #F6B22D url("../img/promo-item01.png") no-repeat 0 0;
+  background: #F6B22D url('../img/promo-item01.png') no-repeat 0 0;
   position: relative;
 }
 
 .instruments {
-  background: #4AAFDE url("../img/promo-item02.png") no-repeat 0 0;
+  background: #4AAFDE url('../img/promo-item02.png') no-repeat 0 0;
 }
 
 .machines {
-  background: #CC79D1 url("../img/promo-item03.png") no-repeat 0 0;
+  background: #CC79D1 url('../img/promo-item03.png') no-repeat 0 0;
 }
 
 .discount {
-  background: #85D179 url("../img/promo-item04.png") no-repeat 0 0;
+  background: #85D179 url('../img/promo-item04.png') no-repeat 0 0;
   float: right;
 }
 
 .delivery {
-  background: #F6B22D url("../img/promo-item05.png") no-repeat 0 0;
+  background: #F6B22D url('../img/promo-item05.png') no-repeat 0 0;
   float: right;
 }
 
@@ -551,7 +551,7 @@ main {
   right: 0;
   width: 60px;
   height: 60px;
-  background: url("../img/flag_new.png") no-repeat 0 0;
+  background: url('../img/flag_new.png') no-repeat 0 0;
 }
 
 .slider-wrapper {
@@ -624,13 +624,13 @@ main {
 .features-slider-item:first-child {
   display: none;
 
-  background: #9a8a73 url("../img/features-slider-item-perforator.jpg") no-repeat;
+  background: #9a8a73 url('../img/features-slider-item-perforator.jpg') no-repeat;
 }
 
 .features-slider-item:last-child {
   display: none;
 
-  background: #a27a6f url("../img/features-slider-item-drill.jpg") no-repeat;
+  background: #a27a6f url('../img/features-slider-item-drill.jpg') no-repeat;
 }
 
 .features-slider h2 {
@@ -713,7 +713,7 @@ main {
   border-right: 4px solid #ffffff;
   border-radius: 3px;
 
-  content: "";
+  content: '';
   z-index: 1000;
 }
 
@@ -792,7 +792,7 @@ main {
 
 .btn {
   display: block;
-  font-family: 'Cuprum';
+  font-family: 'Cuprum', 'Arial', sans-serif;
   font-size: 14px;
   color: white;
   text-transform: uppercase;
@@ -843,7 +843,7 @@ main {
   float: left;
   color: #32425c;
   text-transform: uppercase;
-  font-family: 'Cuprum';
+  font-family: 'Cuprum', 'Arial', sans-serif;
   font-size: 30px;
   font-weight: 400;
   margin: 0 0 0 30px;
@@ -864,7 +864,7 @@ main {
 
 .catalog {
   margin-bottom: 40px;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', 'Arial', sans-serif;
   text-align: center;
 }
 
@@ -901,7 +901,7 @@ main {
   display: block;
   color: black;
   text-decoration: none;
-  font-family: 'Cuprum', 'Arial', sans-serif;
+  font-family: 'Pt Sans', 'Arial', sans-serif;
   font-size: 18px;
   line-height: 1.111;
   white-space: normal;
@@ -928,21 +928,19 @@ main {
   border-radius: 3px;
   text-decoration: none;
   font-weight: 600;
-  line-height: 1.126;
   font-family: 'Cuprum', 'Arial', sans-serif;
   font-size: 17px;
-  line-height: 1.111;
   white-space: normal;
 }
 
 .price:after {
-  content: "";
+  content: '';
   position: absolute;
   top: 0px;
   right: -20px;
   width: 0;
   height: 0;
-  border: 19px solid white;
+  border: 20px solid white;
   border-left-color: #EE3643;
  
 }
@@ -966,7 +964,7 @@ main {
   padding: 7px 0;
   border: 3px solid #63a63e;
   border-bottom-color: #367315;
-  background: #63a63e url("../img/icon-basket-before.png") no-repeat 10px 5px;
+  background: #63a63e url('../img/icon-basket-before.png') no-repeat 10px 5px;
   color: white;
   font-size: 14px;
   font-weight: normal;
@@ -980,7 +978,7 @@ main {
 }
 
 .buy {
-  background: #63a63e url("../img/icon-basket.png") no-repeat 10px 5px;
+  background: #63a63e url('../img/icon-basket.png') no-repeat 10px 5px;
 }
 
 
@@ -1019,7 +1017,7 @@ main {
 }
 
 .catalog-item .actions .buy:hover {
-  background: #5fbb2d url("../img/icon-basket.png") no-repeat 10px 5px;
+  background: #5fbb2d url('../img/icon-basket.png') no-repeat 10px 5px;
   opacity: 1;
 }
 
@@ -1059,7 +1057,7 @@ main {
   right: 0;
   width: 60px;
   height: 60px;
-  background: url("../img/flag_new.png") no-repeat 0 0;
+  background: url('../img/flag_new.png') no-repeat 0 0;
 }
 
 .manufacturers {
@@ -1100,7 +1098,7 @@ main {
   width: 200px;
   background: #32425C;
   color: #ffffff;
-  font-family: 'Cuprum';
+  font-family: 'Cuprum''Arial', 'Arial', sans-serif;
   font-size: 21px;
   font-weight: 700;
   line-height: 21px;
@@ -1145,7 +1143,7 @@ main {
 .section h1 {
   color: #32425c;
   text-transform: uppercase;
-  font-family: 'Cuprum';
+  font-family: 'Cuprum', 'Arial', sans-serif;
   font-size: 30px;
   font-weight: 400;
   padding-bottom: 35px;
@@ -1186,8 +1184,8 @@ main {
   width: 10px;
   height: 272px;
   margin-top: -136px;
-  background: url("../img/services-tabs-shadow.png") no-repeat;
-  content: "";
+  background: url('../img/services-tabs-shadow.png') no-repeat;
+  content: '';
 }
 
 .services-tabs-controls label {
@@ -1249,7 +1247,7 @@ main {
 
 .services-tabs-item::after {
   position: absolute;
-  content: "";
+  content: '';
 }
 
 .services-tabs-item:nth-child(1)::after {
@@ -1257,7 +1255,7 @@ main {
   right: 0;
   width: 468px;
   height: 261px;
-  background: url("../img/services-tabs-delivery.png");
+  background: url('../img/services-tabs-delivery.png');
 }
 
 .services-tabs-item:nth-child(2)::after {
@@ -1265,7 +1263,7 @@ main {
   right: 0px;
   width: 389px;
   height: 283px;
-  background: url("../img/services-tabs-guarantee.png");
+  background: url('../img/services-tabs-guarantee.png');
 }
 
 .services-tabs-item:nth-child(3)::after {
@@ -1275,7 +1273,7 @@ main {
   width: 465px;
   height: 285px;
 
-  background: url("../img/services-tabs-credit.png");
+  background: url('../img/services-tabs-credit.png');
 }
 
 .services-tabs-item {
@@ -1328,11 +1326,12 @@ main {
 
 .about-header,
 .contacts-header {
-  margin: 0 0 35px 0;
-  font-family: 'Cuprum';
-  font-size: 30px;
-  font-weight: 400;
-  line-height: 0.8;
+margin: 0 0 35px 0;
+font-family: 'Cuprum', 'Arial', sans-serif;
+font-size: 30px;
+font-weight: 400;
+line-height: 0.8;
+text-transform: uppercase;
 }
 
 .about p {
@@ -1368,7 +1367,7 @@ main {
   font-size: 18px;
   line-height: 2;
   text-decoration: none;
-  font-family: 'Cuprum';
+  font-family: 'Cuprum', 'Arial', sans-serif;
 }
 
 .btn-about {
@@ -1383,12 +1382,13 @@ main {
 }
 
 .map img {
-  margin: 14px 0;
+  margin-top: 30px;
+  margin-bottom: 35px;
 }
 
 .btn-email {
   width: 300px;
-  margin: 14px 0 0;
+
 }
 
 .address {
@@ -1406,7 +1406,7 @@ a.address {
 
 .footer-upper {
   background: #32425C;
-  font-family: 'Cuprum';
+  font-family: 'Cuprum', 'Arial', sans-serif;
   font-size: 18px;
   line-height: 1.333;
   padding-bottom: 50px;
@@ -1514,7 +1514,7 @@ a.address {
 .footer-lower {
   background: #293449;
   color: #FFFFFF;
-  font-family: 'Cuprum';
+  font-family: 'Cuprum', 'Arial', sans-serif;
   font-size: 16px;
   line-height: 1.125;
 }
@@ -1625,7 +1625,7 @@ a.address {
   padding: 0;
   margin: 20px 20px 20px 30px;
   position: relative;
-font-family: 'PT Sans',Arial,sans-serif;
+font-family: 'PT Sans', 'Arial', sans-serif;
 }
 
 .breadcrumbs p {
@@ -1685,7 +1685,7 @@ font-family: 'PT Sans',Arial,sans-serif;
 
 .calalog-header {
   background: #f2f6f8;
-  font-family: 'Cuprum';
+  font-family: 'Cuprum', 'Arial', sans-serif;
   color: #32425c;
   font-size: 30px;
   font-weight: 400;
@@ -1698,11 +1698,11 @@ font-family: 'PT Sans',Arial,sans-serif;
   float: left;
   width: 220px;
   position: relative;
-  font-family: 'PT Sans',Arial,sans-serif;
+  font-family: 'PT Sans', Arial, sans-serif;
  }
 
 .side-topbar {
-  font-family: 'OpenSans', sans-serif;
+  font-family: 'OpenSans', 'Arial', sans-serif;
   font-size: 12px;
   font-weight: 500;
   line-height: 18px;
@@ -1713,7 +1713,7 @@ font-family: 'PT Sans',Arial,sans-serif;
 }
 
 .side-left h3 {
-  font-family: 'OpenSans', sans-serif;
+  font-family: 'OpenSans', 'Arial', sans-serif;
   font-size: 16px;
   font-weight: 600;
   line-height: 1.877;
@@ -1726,7 +1726,7 @@ font-family: 'PT Sans',Arial,sans-serif;
 .price-range {
   position: relative;
   font-size: 16px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', 'Arial', sans-serif;
   font-weight: 300;
   font-style: normal;
   width: 220px;
@@ -1738,7 +1738,7 @@ font-family: 'PT Sans',Arial,sans-serif;
   width: 20px;
   height: 15px;
   background: url('../img/technomart-sprites.png') no-repeat -150px -84px;
-  content: "";
+  content: '';
   left: 180px;
   position: absolute;
   top: 5px;
@@ -1800,7 +1800,7 @@ font-family: 'PT Sans',Arial,sans-serif;
   border: none;
   background: #f7f3ec;
   font-size: 16px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', 'Arial', sans-serif;
   font-weight: 300;
   font-style: normal;
   text-align: center;
@@ -1826,7 +1826,7 @@ font-family: 'PT Sans',Arial,sans-serif;
   width: 220px;
   height: 1px;
   background: #e5e5e5;
-  content: "";
+  content: '';
   left: 0;
   position: absolute;
   top: -17px;
@@ -1842,7 +1842,7 @@ font-family: 'PT Sans',Arial,sans-serif;
   width: 220px;
   height: 1px;
   background: #e5e5e5;
-  content: "";
+  content: '';
   left: 0;
   position: absolute;
   top: -17px;
@@ -1930,23 +1930,34 @@ font-family: 'PT Sans',Arial,sans-serif;
 
 .side-left .view {
   margin-top: 60px;
-  padding: 9px 10px;
+  padding: 9px 0px;
   width: 120px;
   font-size: 14px;
   line-height: 1.385;
   text-transform: uppercase;
   font-family: 'PT Sans', 'Arial', sans-serif;
   background: transparent;
-  border: 1px solid #e5e5e5;
   outline: none;
   cursor: pointer;
 }
 
-.side-left .view:hover {
+button {
+font-size: 13px;
+font-family: 'PT Sans', 'Arial' , sans-serif;
+text-transform: uppercase;
+padding: 9px 38px;
+line-height: 1.385;
+background: 0 0;
+border: 1px solid #e5e5e5;
+outline: 0;
+cursor: pointer;
+}
+
+.side-left button:hover {
   border-color: #bdc6ca;
 }
 
-.side-left .view:active {
+.side-left button:active {
   border-color: #ee3643;
 }
 
@@ -2125,7 +2136,7 @@ font-family: 'PT Sans',Arial,sans-serif;
 }
 
 .about-product h2 {
-  font-family: 'Cuprum';
+  font-family: 'Cuprum', 'Arial', sans-serif;
   color: #000000;
   font-size: 30px;
   font-weight: 400;
@@ -2133,7 +2144,7 @@ font-family: 'PT Sans',Arial,sans-serif;
 }
 
 .about-product p {
-  font-family: 'OpenSans', sans-serif;
+  font-family: 'OpenSans', 'Arial', sans-serif;
   color: #000000;
   line-height: 24px;
   margin: 0;
@@ -2162,17 +2173,17 @@ font-family: 'PT Sans',Arial,sans-serif;
   font-size: 17px;
 }
 
-.login-form input[type="text"],
-.login-form input[type="password"],
-.login-form input[type="submit"] {
+.login-form input[type='text'],
+.login-form input[type='password'],
+.login-form input[type='submit'] {
   display: block;
   font-weight: bold;
   font-size: 14px;
   text-transform: uppercase;
 }
 
-.login-form input[type="text"],
-.login-form input[type="password"] {
+.login-form input[type='text'],
+.login-form input[type='password'] {
   width: 241px;
   margin-bottom: 10px;
   padding: 12px 15px;
@@ -2182,7 +2193,7 @@ font-family: 'PT Sans',Arial,sans-serif;
   background-color: #f9f6f3;
 }
 
-.login-form input[type="password"] {
+.login-form input[type='password'] {
   margin-bottom: 15px;
 }
 
@@ -2191,15 +2202,15 @@ font-family: 'PT Sans',Arial,sans-serif;
   color: #000;
 }
 
-.login-form input[type="checkbox"] {
+.login-form input[type='checkbox'] {
   vertical-align: middle;
   margin-right: 5px;
 }
 
-.login-form input[type="submit"] {
+.login-form input[type='submit'] {
   width: 300px;
   margin-top: 15px;
-  font-family: 'Cuprum';
+  font-family: 'Cuprum', 'Arial', sans-serif;
   color: white;
   text-transform: uppercase;
   text-align: center;
@@ -2210,17 +2221,17 @@ font-family: 'PT Sans',Arial,sans-serif;
   border: none;
 }
 
-.login-form input[type="submit"]:hover {
+.login-form input[type='submit']:hover {
   background: #ca2c37;
 }
 
-.login-form input[type="submit"]:active {
+.login-form input[type='submit']:active {
   background: #ba2732;
   color: #cf6870;
   border: none;
 }
 
-.login-form input[type="submit"]:focus {
+.login-form input[type='submit']:focus {
   border: none;
 }
 
@@ -2281,7 +2292,7 @@ font-family: 'PT Sans',Arial,sans-serif;
   width: 940px;
   height: 446px;
 
-  background: #e9e5dc url("../img/map-modal.jpg") no-repeat;
+  background: #e9e5dc url('../img/map-modal.jpg') no-repeat;
   border: none;
   box-shadow: 0 0 15px 1px rgba(35, 31, 32, 0.5);
 }
@@ -2316,7 +2327,7 @@ font-family: 'PT Sans',Arial,sans-serif;
   background-color: #ee3643;
   border-radius: 1px;
 
-  content: "";
+  content: '';
 }
 
 .modal-content-close::before {
@@ -2445,9 +2456,9 @@ font-family: 'PT Sans',Arial,sans-serif;
   width: 66px;
   height: 66px;
 
-  background: url("../img/checkmark.png");
+  background: url('../img/checkmark.png');
 
-  content: "";
+  content: '';
 }
 
 .modal-content-order .btn-order,
